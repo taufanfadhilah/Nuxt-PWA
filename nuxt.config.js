@@ -43,6 +43,14 @@ module.exports = {
   modules: [
     '@nuxtjs/pwa',
   ],
+  // PWA Configuration
+  manifest: {
+    short_name: 'NuxtPWA',
+    name: 'Nuxt PWA',
+    start_url: '/',
+    lang: 'id',
+    theme_color: '#e2e2e2'
+  },
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
