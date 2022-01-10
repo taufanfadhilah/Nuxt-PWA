@@ -3,7 +3,7 @@
     <div class="flex flex-col h-full max-w-lg mx-auto bg-gray-800 rounded-lg">
       <img
         class="rounded-lg rounded-b-none"
-        src="http://www.3forty.media/ruki/wp-content/uploads/2020/06/meditation-yoga-1024x682.jpg"
+        src="/photo.jpg"
         alt="thumbnail"
         loading="lazy"
       />
