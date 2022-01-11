@@ -47,12 +47,10 @@ export default {
 
   pwa: {
     manifest: {
-      id: '/',
       name: 'My Nuxt JS PWA',
       lang: 'id',
       author: 'Taufan Fadhilah Iskandar',
       description: 'Just an example of PWA website using Nuxt JS',
-      useWebmanifestExtension: false,
       theme_color: '#12B981'
     },
     meta: {
@@ -61,6 +59,6 @@ export default {
       author: 'Taufan Fadhilah Iskandar',
       description: 'Just an example of PWA website using Nuxt JS',
       theme_color: '#12B981'
-    },
+    }
   },
 }
