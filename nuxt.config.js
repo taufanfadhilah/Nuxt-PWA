@@ -35,6 +35,8 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://pwa.nuxtjs.org
+    '@nuxtjs/pwa',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -42,4 +44,21 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  pwa: {
+    manifest: {
+      name: 'My Nuxt JS PWA',
+      lang: 'id',
+      author: 'Taufan Fadhilah Iskandar',
+      description: 'Just an example of PWA website using Nuxt JS',
+      theme_color: '#12B981'
+    },
+    meta: {
+      name: 'My Nuxt JS PWA',
+      lang: 'id',
+      author: 'Taufan Fadhilah Iskandar',
+      description: 'Just an example of PWA website using Nuxt JS',
+      theme_color: '#12B981'
+    }
+  },
 }
